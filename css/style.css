@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+#land {
+  background: url("../images/takeland.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+
+#land header {
+  margin-top: 3rem;
+}
+
+#land header i{
+  font-size: 4rem;
+  line height: 4rem;
+}
+
+#land header span {
+  font-style: italic;
+  font-size: 2rem;
+  position: relative;
+  left: 0.3rem;
+  top: -0.7rem;
+}
+
+#land .welcome_msg {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%)
+}
+
+#land .welcome_msg h1{
+  font-size: 4vw;
+  font-weight: 300;
+
+}
+
+#land .welcome_msg p{
+  font-size: 1vw;
+}
