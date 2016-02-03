@@ -1,47 +1,156 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open sans', sans-serif; }
 
+h1, h2, h3, h4, h5 {
+  font-weight: 300; }
 
-}
 #land {
   background: url("../images/takeland.jpg");
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
   color: #fff;
-  border: 1px solid transparent;
-}
+  border: 1px solid transparent; }
+  #land header {
+    margin-top: 3rem; }
+    #land header i {
+      font-size: 4rem;
+      line-height: 4rem; }
+    #land header span {
+      font-style: italic;
+      font-size: 2rem;
+      position: relative;
+      left: 0.3rem;
+      top: -0.7rem; }
+  #land .welcome_msg {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%) h1;
+      transform-font-size: 4vw;
+      transform-font-weight: 300; }
+    #land .welcome_msg p {
+      font-size: 1vw; }
 
+#intro {
+  padding: 4em 0 3em 0;
+  color: #717171; }
+  #intro p {
+    padding: 1em 0; }
 
-#land header {
-  margin-top: 3rem;
-}
+#features #design-quality {
+  background-color: #f5999e;
+  color: #fff; }
+#features #built-to-last {
+  background-color: #9e9dad;
+  color: #fff; }
+#features #perfect-pictures {
+  background-color: #7ec497;
+  color: #fff; }
+#features #signup-see {
+  background: url("../images/features/signup.jpg");
+  background-position: center;
+  height: 188px;
+  color: #fff; }
+#features #our-clients {
+  background: url("../images/features/clients.jpg");
+  background-position: center;
+  color: #fff; }
+#features a {
+  color: #fff;
+  margin: 1em 0 2em;
+  display: inline-block; }
+#features i {
+  margin-left: 1em; }
 
-#land header i{
-  font-size: 4rem;
-  line height: 4rem;
-}
+#details {
+  padding: 4em 0 3em;
+  color: #717171; }
+  #details h2 {
+    margin-bottom: 1em; }
 
-#land header span {
-  font-style: italic;
-  font-size: 2rem;
-  position: relative;
-  left: 0.3rem;
-  top: -0.7rem;
-}
+#explore {
+  background: url("../images/features/explore.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff; }
+  #explore .explore-container {
+    position: relative;
+    height: 100vh; }
+    #explore .explore-container .explore-content {
+      position: absolute;
+      bottom: 2em; }
+      #explore .explore-container .explore-content h2 {
+        font-size: 4vw; }
+      #explore .explore-container .explore-content p {
+        margin: 1em 0; }
+  #explore a {
+    color: #fff; }
+  #explore i {
+    margin-left: 1em; }
 
-#land .welcome_msg {
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%)
-}
+#reasons {
+  background-color: #82ea9c;
+  color: #fff;
+  padding: 4em 0 3em; }
+  #reasons h2 {
+    font-size: 5rem;
+    margin-bottom: 1em; }
+  #reasons h4 {
+    font-weight: 700;
+    font-size: 1em; }
 
-#land .welcome_msg h1{
-  font-size: 4vw;
-  font-weight: 300;
+#plans {
+  background-color: #f6f7fb;
+  padding: 4em 0 3em;
+  color: #717171; }
+  #plans .plan {
+    padding: 4em 3em; }
+    #plans .plan .label {
+      text-transform: uppercase; }
+    #plans .plan h3 {
+      font-size: 2.5em; }
+    #plans .plan p {
+      margin: 1em 0; }
+    #plans .plan a.btn {
+      background-color: #82ca9c;
+      color: #fff;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      font-weight: 700;
+      margin-bottom: 2em; }
+    #plans .plan i {
+      font-size: 2em;
+      margin-right: 0.3em; }
+  #plans #solo-plan .label {
+    background-color: #717171; }
+  #plans #team-plan {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #dark-font-color; }
+    #plans #team-plan .label {
+      background-color: #c38cc3; }
 
-}
+footer {
+  background-color: #1a2430;
+  color: #fff;
+  padding: 6em 0 8em; }
+  footer h4 {
+    font-size: 0.9em;
+    font-weight: 400; }
+  footer p {
+    font-style: 0.8em; }
+  footer #contact-form {
+    margin-bottom: 5px; }
+    footer #contact-form input {
+      height: 4em;
+      border-right-color: transparent; }
+    footer #contact-form .form-tick {
+      padding: 0 2em;
+      background-color: #7ec497; }
+    footer #contact-form i {
+      color: #fff; }
+  footer p.hint {
+    font-size: 0.8em; }
 
-#land .welcome_msg p{
-  font-size: 1vw;
-}
+/*# sourceMappingURL=style.css.map */

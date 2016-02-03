@@ -1,0 +1,36 @@
+footer{
+	background-color: #1a2430;
+	color: $light-font-color;
+	padding: 6em 0 8em;
+
+	h4{
+		font-size: 0.9em;
+		font-weight: 400;
+	}
+
+	p{
+		font-style: 0.8em;
+	}
+	#contact-form{
+		margin-bottom: 5px;
+
+		input{
+		height: 4em;
+		border-right-color: transparent;
+		}
+
+		.form-tick{
+		padding: 0 2em;
+		background-color: #7ec497;
+		}
+
+		i{
+			color: $light-font-color;
+		}
+	}
+
+p.hint{
+	font-size: 0.8em;
+
+}
+}
