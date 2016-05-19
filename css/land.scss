@@ -1,0 +1,35 @@
+#land {
+  background: url("../images/takeland.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  color: #fff;
+  border: 1px solid transparent;
+  header {
+    margin-top: 3rem;
+    i{
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+    span {
+      font-style: italic;
+      font-size: 2rem;
+      position: relative;
+      left: 0.3rem;
+      top: -0.7rem;
+    }
+  }
+  .welcome_msg {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    h1{
+      font-size: 4vw;
+      font-weight: 300;
+
+    }
+    p{
+      font-size: 1vw;
+    }
+  }
+}
